@@ -1,0 +1,100 @@
+.FadeInRight
+{
+	animation: FadeInRight;
+}
+@keyframes FadeInRight 
+{
+	from{margin-right: 700px;}
+	to{margin-right: 0px;}
+}
+
+.FadeInLeft
+{
+	animation: FadeInLeft;
+}			
+@keyframes FadeInLeft
+{
+	from{margin-left: 150px;}
+	to{margin-left: 0px;}
+}
+.FadeInOpacity
+{
+	animation: FadeInOpacity;
+}
+@keyframes FadeInOpacity
+{
+	from{opacity: 0;}
+	to {opacity: 1;}
+}
+
+.FadeUp
+{
+	animation: FadeUp ;			
+}
+
+.FadeBottom 
+{
+	animation: FadeBottom;
+}
+
+.zoomIn
+{
+	animation: ZoomIn;
+}
+@keyframes ZoomIn
+{
+	from{transform: scale(0);}
+	to {transform: scale(1);}
+}
+
+.zoomOut
+{
+	animation: zoomOut;
+	overflow: hidden;
+}
+@keyframes zoomOut
+{
+	from{transform: scale(2);}
+	to {transform: scale(1);}
+}
+.skew
+{
+	animation: skew ;
+}			
+@keyframes skew
+{
+	from {transform: skew(-90deg) scale(0.5);}
+	to {transform: skew(0deg) scale(1);}
+}
+
+.rotate
+{
+	animation: rotate ease-out;
+}
+@keyframes rotate
+{
+	from {transform: rotate(0) scale(0);}
+	to{transform: rotate(1440deg) scale(1);}
+}
+
+.FloopRight
+{
+	animation: FloopRight forward;
+}
+@keyframes FloopRight
+{
+	0% {margin-right: 700px;}
+	70% {margin-right:-30px;}
+	100% {margin-right:0px;}
+}
+
+.FloopLeft 
+{
+	animation: FloopLeft;
+}
+@keyframes FloopLeft
+{
+	0% {margin-left: 700px;}
+	70% {margin-left:-30px;}
+	100% {margin-left:0px;}
+}

@@ -1,0 +1,44 @@
+html 
+{
+	scroll-behavior: smooth;
+}
+body
+{
+	 direction: rtl;
+	 text-align:center;
+}
+#warpper
+{
+	background-image: url('img/bg.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#first
+{
+	background: #42f59b;
+	color: black;
+	font-size: 30px;
+	font-size: 30px;
+}
+.box 
+{
+	border: 1px solid green;
+	font-size: 40px;
+	margin-top: 30px;
+	padding: 20px;
+	min-height: 120px;
+	width: 70%;
+	display: inline-block;	
+	color: white;
+	background: #9af5c7;
+}
+@media only screen and (max-width: 600px) 
+{
+	.box
+	{
+		margin: 10px 0;
+		width: 90%;
+	}
+}
